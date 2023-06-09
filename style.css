@@ -1,0 +1,89 @@
+*{
+    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Montserrat Alternates', sans-serif;
+    scroll-behavior: smooth;
+    /* color: white; */
+}
+/* body{
+    background-image: url("https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=335&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.nav-wrapper{
+    background-color: rgb(0, 0, 0);
+}
+
+.carousel .carousel-item img{
+    height: 460px;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: rgb(0, 0, 0);
+}
+
+.info1{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: medium;
+    text-align: left;
+}
+
+.parallax-container{
+    min-height: 300px;
+    height: auto;
+}
+
+.ficons{
+    margin-top: 20px;
+}
+
+.carousel-item .row .col .card{
+    background-color: rgb(0, 0, 0);
+}
+
+.page-footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.page-footer .footer-copyright{
+    background-color: rgb(0, 0, 0);
+}
+
+.ficons .container .row .col {
+    transition: .5s ease-out;
+ }
+.ficons .container .row .col  :hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translate3d(0,-5px,0);
+ }
+
+ .fcontainer .l4 img{
+     border-radius: 20px;
+    transition: .5s ease-out;
+ }
+ .fcontainer .l4 img:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translate3d(0,-15px,0);
+ }
+
+ .fcontainer .center-align {
+    border-radius: 20px;
+    transition: .3s ease-out;
+
+ }
+ .fcontainer .center-align:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translate3d(0,-15px,0);
+
+ }
+
+ .carousel .carousel-item .card .card-title {
+     color: rgb(230, 198, 19);
+ }
+
+
+
+ 
+

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prajwal Katkati" >
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- nav bar  -->
+    <div class="navbar-fixed">
+        
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo" style="margin-left: 10px;">Prajwal</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#start">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact-Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#start">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact-Me</a></li>
+    </ul>
+
+    <!-- modal  -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header 1</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+
+    <!-- carousel  -->
+    <div class="slider" id="start">
+        <ul class="slides">
+            <li>
+                <img src="./images/BG-1.jpeg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Hi, there</h3>
+                    <h5 class="light grey-text text-lighten-3"><span style="background-color: rgb(209, 180, 12);color: black;"> &nbsp; Welcome to My Portfolio &nbsp;</span></h5>
+                </div>
+            </li>
+            <li>
+                <img src="./images/BG-2.jpeg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>I'm Prajwal Katkati</h3>
+                    <h5 class="light grey-text text-lighten-3"> <span style="background-color:  rgb(209, 180, 12);color: black;"> &nbsp; Java Full Stack & Web developer &nbsp;</span> </h5>
+                </div>
+            </li>
+           
+        </ul>
+    </div>
+
+
+    <div class="fcontainer" id="about">
+        <div class="container center">
+            <h2 class="title">Who am i ?</h2>
+            <div class="row">
+                <div class="col l8 m12 s12 info1" style="font-size: 26px;">
+                    I'm Prajwal Katkati, A Full-stack Developer for Web based applications. My interest lies in solving real-world problems and debugging code. 
+                    <div class=" center-align " style="margin-top: 20px;">
+                        <a target="_blank" href="https://drive.google.com/file/d/1bG8OncOKlDb9OzhEG6FzUyHaWoXK6A07/view?usp=drive_link" class="btn waves-effect " style="background-color: rgb(209, 180, 12); width: 100%; border-radius: 20px;">Download - CV</a>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <img src="./images/Image.jpg" height="250" width="auto" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h3 class="center-align">Skill(s)</h3>
+    <div class="carousel" style="margin-top: -200px;">
+        <a class="carousel-item" href="#one!">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Java</span>
+                            <p>1 years of relevant experience in Java Full Stack Knowledge in Spring framework </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="carousel-item" href="#one!">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Python</span>
+                            <p>Have Basic Knowledge of Python. Experience in the concept of OOPS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="carousel-item" href="#one!">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">JDBC-Hibernate</span>
+                            <p>Experience in maintain secure connection between java to databse using JDBC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="carousel-item" href="#one!">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">JavaScript</span>
+                            <p>Experience with JavaScript libraries/frameworks such as ReactJs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a class="carousel-item" href="#one!">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">My-SQL</span>
+                            <p>Experience in designing and maintaining SQL databases like My-Sql and OracleSql, and have Software Knowledge of SQL10g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="carousel-item" href="#one!">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">HTML-CSS</span>
+                            <p>One Year Experience in HTML-CSS. Have building secure web-page and customizing webpages as per business need.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="fcontainer" id="about">
+        <div class="container center">
+            <h2 class="title">Education</h2>
+            <div class="row">
+                <div class="col l8 m12 s12 info1" style="font-size: 26px;">
+                    Engineering<br>
+                    Graduated From Jain College Of Engineering & Research Belagavi, From(2019-2022).
+                </div>
+                <div class="col l4 m12 s12">
+                    <img src="./images/Graduation image.avif" height="150" width="auto" alt="">
+                </div>
+                <div class="col l8 m12 s12 info1" style="font-size: 26px;">
+                    Diploma<br>
+                    Have Completed Diploma in Jain Polytechnic Belagavi, From(2016-2019).
+                </div>
+        </div>
+    </div>
+    
+   
+    <div class="fparallax">
+        <div class="parallax-container">
+            <div class="parallax"><img src="./images/BG-3.jpeg"></div>
+        </div>
+    </div>
+
+    <div class="fabout">
+        <div class="container center">
+            <div class="row">
+                <h2>Other-Info</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ficons">
+        <div class="container center">
+            <div class="row">
+                <div class="col l4 s12 m4">
+                    <a target="_blank"  style="color: rgb(12, 62, 226);"  href="https://www.linkedin.com/in/prajwal-katkati-a1900721a">
+                        <i class="fa fa-linkedin fa-5x"></i>
+                    </a>
+                    <!-- <i class=" large material-icons">android</i> -->
+                </div>
+                <div class="col l4 s12 m4">
+                    <a target="_blank"  style="color: black;" href="https://github.com/Prajok05">
+                        <i class="fa fa-github fa-5x"></i>
+                    </a>
+                    <!-- <i class=" large material-icons">cake</i> -->
+                </div>
+                <div class="col l4 s12 m4">
+                    <a target="_blank" style="color: rgb(9, 175, 50);" href="https://www.hackerrank.com/prajwalkatkati1">
+                        <i class="lab la-hackerrank" style="font-size: 80px;"></i>
+                    </a>
+                    <!-- <i class=" large material-icons">location_on</i> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="fprojects">
+        <div class="container center">
+            <div class="row">
+                <h2>Project(s)</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="fcards">
+        <div class="row" style="padding: 0px 20px;">
+            <div class="col l3 m12 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/Capture.PNG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Lovegram<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Lovegram<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            This project is Materialized with React App. An amazing instagram clone build using MERN stack .
+                            <a target="_blank" href="https://lovegram003.herokuapp.com">Live webapp</a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l3 m12 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/markus-spiske-AaEQmoufHLk-unsplash.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Firebase<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Firebase<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l3 m12 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/markus-spiske-AaEQmoufHLk-unsplash.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Maze-Runner<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Maze-Runner<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            The Maze-Runner game for Android platform. Open for any Contribution,make this game better. Want to play the game go to the Releases.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l3 m12 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/markus-spiske-AaEQmoufHLk-unsplash.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Angular-Todo<i
+                                class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Angular-Todo<i
+                                class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+    <div class="myfooter" id="contact">
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text" style="text-decoration: underline;">Contact Info</h5>
+                        <p class="grey-text text-lighten-4">Belagavi , Karnataka , India 
+                            <p>Contact - +91 9035395773</p>
+                            <p>Email - prajwalkatkati1@gmail.com </p>
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text" style="text-decoration: underline;">Social-Media</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://instagram.com/prajwal_o_o"> <i class="fa fa-instagram"></i> Instagram</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://twitter.com/PrajwalK05"> <i class="fa fa-twitter"></i> Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © developed and maintained by, Prajwal Katkati
+                    <p class="grey-text text-lighten-4 right">Made with <span> <i
+                                class="material-icons">favorite</i></span> </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Materialize Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
